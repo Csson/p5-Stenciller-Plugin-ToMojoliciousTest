@@ -1,9 +1,9 @@
 == stencil ==
 
 --input--
-    %= link 'Example'
+    %= link_to 'Example', 'http://www.example.com/'
 --end input--
 
 --output--
-    <a href="">Example</a>
+    <a href="http://www.example.com/">Example</a>
 --end output--

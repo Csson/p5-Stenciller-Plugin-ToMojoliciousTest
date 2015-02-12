@@ -1,0 +1,9 @@
+== stencil ==
+
+--input--
+    %= link 'Example'
+--end input--
+
+--output--
+    <a href="">Example</a>
+--end output--

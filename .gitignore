@@ -1,0 +1,7 @@
+/Stenciller-Plugin-ToMojoliciousTest-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+/.prove

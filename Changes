@@ -6,7 +6,6 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [Bug Fixes]
 
  [Documentation]
- - Fixed link to Dist::Zilla::Plugin::Stenciller::MojoliciousTests.
 
  [Enhancements]
 
@@ -19,6 +18,10 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [Revision]
 
  [Testing]
+
+0.0101 2015-11-23T15:34:08Z UTC
+ [Documentation]
+ - Fixed link to Dist::Zilla::Plugin::Stenciller::MojoliciousTests.
 
 0.0100 2015-11-23T01:32:26Z UTC
  - Initial release

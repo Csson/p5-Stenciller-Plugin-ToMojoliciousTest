@@ -17,6 +17,8 @@ prereqs:
       - File::Temp
       - Test::More
       - Test::Differences
+      - Test::Mojo::Trim
+      - Mojolicious::Lite
       - IPC::System::Simple
       - String::Cushion
       - syntax

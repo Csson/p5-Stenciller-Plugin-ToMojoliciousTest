@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Short intro",
+  "ABSTRACT" => "Create Mojolicious tests from text files parsed with Stenciller",
   "AUTHOR" => "Erik Carlsson <info\@code301.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -21,15 +21,16 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.014000",
   "NAME" => "Stenciller::Plugin::ToMojoliciousTest",
   "PREREQ_PM" => {
-    "Stenciller" => "0.1212"
+    "Moose" => "2.00",
+    "Path::Tiny" => 0,
+    "Stenciller" => "0.1300",
+    "Types::Path::Tiny" => 0
   },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
     "File::Temp" => 0,
     "IPC::System::Simple" => 0,
-    "Path::Tiny" => 0,
-    "Stenciller" => "0.1212",
     "Test::Differences" => 0,
     "Test::More" => "0.96"
   },
@@ -45,10 +46,12 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "File::Temp" => 0,
   "IPC::System::Simple" => 0,
+  "Moose" => "2.00",
   "Path::Tiny" => 0,
-  "Stenciller" => "0.1212",
+  "Stenciller" => "0.1300",
   "Test::Differences" => 0,
-  "Test::More" => "0.96"
+  "Test::More" => "0.96",
+  "Types::Path::Tiny" => 0
 );
 
 

@@ -1,5 +1,5 @@
 {
-   "abstract" : "Short intro",
+   "abstract" : "Create Mojolicious tests from text files parsed with Stenciller",
    "author" : [
       "Erik Carlsson <info@code301.com>"
    ],
@@ -26,7 +26,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.039"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
@@ -43,6 +43,7 @@
             "Dist::Zilla::Plugin::Git::Tag" : "0",
             "Dist::Zilla::Plugin::GithubMeta" : "0",
             "Dist::Zilla::Plugin::License" : "0",
+            "Dist::Zilla::Plugin::MakeMaker" : "0",
             "Dist::Zilla::Plugin::Manifest" : "0",
             "Dist::Zilla::Plugin::ManifestSkip" : "0",
             "Dist::Zilla::Plugin::MetaJSON" : "0",
@@ -50,7 +51,6 @@
             "Dist::Zilla::Plugin::MetaProvides::Class" : "0",
             "Dist::Zilla::Plugin::MetaProvides::Package" : "0",
             "Dist::Zilla::Plugin::MetaYAML" : "0",
-            "Dist::Zilla::Plugin::ModuleBuildTiny" : "0",
             "Dist::Zilla::Plugin::NextRelease" : "0",
             "Dist::Zilla::Plugin::NextVersion::Semantic" : "0",
             "Dist::Zilla::Plugin::OurPkgVersion" : "0",
@@ -65,13 +65,48 @@
             "Dist::Zilla::Plugin::ReversionOnRelease" : "0",
             "Dist::Zilla::Plugin::RunExtraTests" : "0",
             "Dist::Zilla::Plugin::ShareDir" : "0",
+            "Dist::Zilla::Plugin::Test::ReportPrereqs" : "0",
+            "Dist::Zilla::Plugin::TestRelease" : "0",
+            "Dist::Zilla::Plugin::TravisYML" : "0",
             "Dist::Zilla::Plugin::UploadToCPAN" : "0",
+            "Pod::Elemental::Transformer::List" : "0",
+            "Pod::Weaver::Plugin::SingleEncoding" : "0",
+            "Pod::Weaver::Plugin::Transformer" : "0",
+            "Pod::Weaver::PluginBundle::CorePrep" : "0",
+            "Pod::Weaver::Section::Authors" : "0",
+            "Pod::Weaver::Section::Badges" : "0",
+            "Pod::Weaver::Section::Collect" : "0",
+            "Pod::Weaver::Section::Generic" : "0",
+            "Pod::Weaver::Section::Homepage::DefaultCPAN" : "0",
+            "Pod::Weaver::Section::Leftovers" : "0",
+            "Pod::Weaver::Section::Legal" : "0",
+            "Pod::Weaver::Section::Name" : "0",
+            "Pod::Weaver::Section::Region" : "0",
+            "Pod::Weaver::Section::Source::DefaultGitHub" : "0",
+            "Pod::Weaver::Section::Version" : "0",
             "Test::Pod" : "1.41",
             "Test::Warnings" : "0"
          }
       },
-      "test" : {
+      "runtime" : {
          "requires" : {
+            "Moose" : "2.00",
+            "Path::Tiny" : "0",
+            "Stenciller" : "0.1300",
+            "Types::Path::Tiny" : "0",
+            "perl" : "5.014000"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec" : "0",
+            "File::Temp" : "0",
+            "IPC::System::Simple" : "0",
+            "Test::Differences" : "0",
             "Test::More" : "0.96"
          }
       }
@@ -83,6 +118,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Stenciller-Plugin-ToMojoliciousTest/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Stenciller-Plugin-ToMojoliciousTest",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Stenciller-Plugin-ToMojoliciousTest.git",
+         "web" : "https://github.com/Csson/p5-Stenciller-Plugin-ToMojoliciousTest"
+      }
+   },
    "version" : "0.0001"
 }
 

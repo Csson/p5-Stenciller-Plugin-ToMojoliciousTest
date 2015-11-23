@@ -18,6 +18,7 @@ prereqs:
       - Test::More
       - Test::Differences
       - IPC::System::Simple
+      - String::Cushion
       - syntax
       - Syntax::Feature::Qi
 

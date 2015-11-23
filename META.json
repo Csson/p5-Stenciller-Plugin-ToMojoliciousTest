@@ -106,8 +106,10 @@
             "File::Spec" : "0",
             "File::Temp" : "0",
             "IPC::System::Simple" : "0",
+            "Syntax::Feature::Qi" : "0",
             "Test::Differences" : "0",
-            "Test::More" : "0.96"
+            "Test::More" : "0.96",
+            "syntax" : "0"
          }
       }
    },

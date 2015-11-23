@@ -2,7 +2,7 @@
 
 Stenciller::Plugin::ToMojoliciousTest - Create Mojolicious tests from text files parsed with Stenciller
 
-![Requires Perl 5.14+](https://img.shields.io/badge/perl-5.14+-brightgreen.svg) [![Travis status](https://api.travis-ci.org//.svg?branch=master)](https://travis-ci.org//)
+![Requires Perl 5.14+](https://img.shields.io/badge/perl-5.14+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest.svg?branch=master)](https://travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest)
 
 # VERSION
 

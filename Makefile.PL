@@ -31,8 +31,10 @@ my %WriteMakefileArgs = (
     "File::Spec" => 0,
     "File::Temp" => 0,
     "IPC::System::Simple" => 0,
+    "Syntax::Feature::Qi" => 0,
     "Test::Differences" => 0,
-    "Test::More" => "0.96"
+    "Test::More" => "0.96",
+    "syntax" => 0
   },
   "VERSION" => "0.0001",
   "test" => {
@@ -49,9 +51,11 @@ my %FallbackPrereqs = (
   "Moose" => "2.00",
   "Path::Tiny" => 0,
   "Stenciller" => "0.1300",
+  "Syntax::Feature::Qi" => 0,
   "Test::Differences" => 0,
   "Test::More" => "0.96",
-  "Types::Path::Tiny" => 0
+  "Types::Path::Tiny" => 0,
+  "syntax" => 0
 );
 
 

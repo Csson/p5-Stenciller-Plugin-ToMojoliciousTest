@@ -18,6 +18,8 @@ prereqs:
       - Test::More
       - Test::Differences
       - IPC::System::Simple
+      - syntax
+      - Syntax::Feature::Qi
 
 plugins:
   - +config: Author::CSSON

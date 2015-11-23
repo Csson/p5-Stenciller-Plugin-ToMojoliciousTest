@@ -100,7 +100,7 @@ __END__
 
 Stenciller::Plugin::ToMojoliciousTest is a L<Stenciller> plugin that transforms stencils to Mojolicious tests.
 
-If you build your distribution with L<Dist::Zilla> the L<Dist::Zilla::Plugin::Stenciller::ToMojoliciousTests> plugin is an easy way to use this class.
+If you build your distribution with L<Dist::Zilla> the L<Dist::Zilla::Plugin::Stenciller::MojoliciousTests> plugin is an easy way to use this class.
 
 If the text file looks like this:
 

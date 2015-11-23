@@ -2,11 +2,11 @@
 
 Stenciller::Plugin::ToMojoliciousTest - Create Mojolicious tests from text files parsed with Stenciller
 
-![Requires Perl 5.14+](https://img.shields.io/badge/perl-5.14+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest.svg?branch=master)](https://travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest)
+![Requires Perl 5.14](https://img.shields.io/badge/perl-5.14-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest.svg?branch=master)](https://travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest)
 
 # VERSION
 
-Version 0.0001, released 2015-11-23.
+Version 0.0101, released 2015-11-23.
 
 # SYNOPSIS
 
@@ -30,7 +30,7 @@ Version 0.0001, released 2015-11-23.
 
 Stenciller::Plugin::ToMojoliciousTest is a [Stenciller](https://metacpan.org/pod/Stenciller) plugin that transforms stencils to Mojolicious tests.
 
-If you build your distribution with [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla) the [Dist::Zilla::Plugin::Stenciller::ToMojoliciousTests](https://metacpan.org/pod/Dist::Zilla::Plugin::Stenciller::ToMojoliciousTests) plugin is recommended.
+If you build your distribution with [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla) the [Dist::Zilla::Plugin::Stenciller::MojoliciousTests](https://metacpan.org/pod/Dist::Zilla::Plugin::Stenciller::MojoliciousTests) plugin is an easy way to use this class.
 
 If the text file looks like this:
 

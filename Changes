@@ -1,4 +1,25 @@
 Revision history for Stenciller-Plugin-ToMojoliciousTest
 
 {{$NEXT}}
-     - Initial release
+ [API Changes]
+
+ [Bug Fixes]
+
+ [Documentation]
+ - Fixed link to Dist::Zilla::Plugin::Stenciller::MojoliciousTests.
+
+ [Enhancements]
+
+ [Meta]
+
+ [New Features]
+
+ [Requirements]
+
+ [Revision]
+
+ [Testing]
+
+0.0100 2015-11-23T01:32:26Z UTC
+ - Initial release
+

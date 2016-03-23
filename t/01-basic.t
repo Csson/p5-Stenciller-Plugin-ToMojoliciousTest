@@ -1,4 +1,4 @@
-use 5.14.0;
+use 5.10.0;
 use strict;
 use warnings;
 
@@ -39,7 +39,7 @@ done_testing;
 
 sub result {
     return cushion 0, 2, qi{
-        use 5.10.1;
+        use 5.10.0;
         use strict;
         use warnings;
         use Test::More;

@@ -14,6 +14,7 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [New Features]
 
  [Requirements]
+  - Lower Perl req to 5.10 (and require Stenciller 0.1400, which makes that possible).
 
  [Revision]
 

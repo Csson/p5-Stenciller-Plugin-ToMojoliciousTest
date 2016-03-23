@@ -1,7 +1,12 @@
-/Stenciller-Plugin-ToMojoliciousTest-*
+# This file was auto-generated from iller.yaml by Dist::Iller on 2016-03-23 20:36:55 UTC.
+# The following configs were used:
+# * Dist::Iller::Config::Author::CSSON: 0.0309
+
 /.build
 /_build*
 /Build
 MYMETA.*
 !META.json
 /.prove
+Stenciller-Plugin-ToMojoliciousTest-*
+.coverhistory.json

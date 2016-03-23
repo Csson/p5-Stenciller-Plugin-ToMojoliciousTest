@@ -4,7 +4,7 @@ use warnings;
 
 package Stenciller::Plugin::ToMojoliciousTest;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 # ABSTRACT: Create Mojolicious tests from text files parsed with Stenciller
 # AUTHORITY
 

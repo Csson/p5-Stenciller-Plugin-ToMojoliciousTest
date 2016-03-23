@@ -1,11 +1,12 @@
-use 5.14.0; # Due to Stenciller
+use 5.10.0;
 use strict;
 use warnings;
 
 package Stenciller::Plugin::ToMojoliciousTest;
 
-# VERSION
+our $VERSION = '0.0102';
 # ABSTRACT: Create Mojolicious tests from text files parsed with Stenciller
+# AUTHORITY
 
 use Moose;
 use Types::Path::Tiny qw/Path/;
@@ -17,7 +18,6 @@ has template => (
     required => 1,
     coerce => 1,
 );
-
 
 sub transform {
     my $self = shift;
@@ -68,8 +68,6 @@ sub transform {
     my $template = $self->template->slurp_utf8;
     return $template.$content;
 }
-
-
 
 1;
 

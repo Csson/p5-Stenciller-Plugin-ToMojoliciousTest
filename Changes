@@ -4,7 +4,6 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [API Changes]
 
  [Bug Fixes]
-  - Now depends on Mojolicious (instead of Mojolicious::Lite), since that's where $VERSION is.
 
  [Documentation]
 
@@ -19,6 +18,16 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [Stats & Dependency Changes]
 
  [Testing]
+
+0.0103 2016-03-24T08:30:56Z UTC
+ [Bug Fixes]
+ - Now depends on Mojolicious (instead of Mojolicious::Lite), since that's
+   where $VERSION is.
+
+ [Stats & Dependency Changes]
+ - 2 files changed, 2 insertions(+), 2 deletions(-)
+ - (test req) + Mojolicious 6.00
+ - (test req) - Mojolicious::Lite
 
 0.0102 2016-03-23T20:57:43Z UTC
  [Requirements]

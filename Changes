@@ -4,6 +4,7 @@ Revision history for Stenciller-Plugin-ToMojoliciousTest
  [API Changes]
 
  [Bug Fixes]
+  - Now depends on Mojolicious (instead of Mojolicious::Lite), since that's where $VERSION is.
 
  [Documentation]
 

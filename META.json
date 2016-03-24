@@ -131,7 +131,7 @@
             "IO::Handle" : "0",
             "IPC::Open3" : "0",
             "IPC::System::Simple" : "0",
-            "Mojolicious::Lite" : "0",
+            "Mojolicious" : "6.00",
             "String::Cushion" : "0",
             "Syntax::Feature::Qi" : "0",
             "Test::Differences" : "0",
@@ -144,7 +144,7 @@
    "provides" : {
       "Stenciller::Plugin::ToMojoliciousTest" : {
          "file" : "lib/Stenciller/Plugin/ToMojoliciousTest.pm",
-         "version" : "0.0102"
+         "version" : "0.0103"
       }
    },
    "release_status" : "stable",
@@ -159,7 +159,7 @@
          "web" : "https://github.com/Csson/p5-Stenciller-Plugin-ToMojoliciousTest"
       }
    },
-   "version" : "0.0102",
+   "version" : "0.0103",
    "x_authority" : "cpan:CSSON"
 }
 

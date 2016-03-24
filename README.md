@@ -6,15 +6,15 @@ Stenciller::Plugin::ToMojoliciousTest - Create Mojolicious tests from text files
     <p>
     <img src="https://img.shields.io/badge/perl-5.10+-blue.svg" alt="Requires Perl 5.10+" />
     <a href="https://travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest"><img src="https://api.travis-ci.org/Csson/p5-Stenciller-Plugin-ToMojoliciousTest.svg?branch=master" alt="Travis status" /></a>
-    <a href="http://cpants.cpanauthors.org/dist/Stenciller-Plugin-ToMojoliciousTest-0.0102"><img src="https://badgedepot.code301.com/badge/kwalitee/Stenciller-Plugin-ToMojoliciousTest/0.0102" alt="Distribution kwalitee" /></a>
-    <a href="http://matrix.cpantesters.org/?dist=Stenciller-Plugin-ToMojoliciousTest%200.0102"><img src="https://badgedepot.code301.com/badge/cpantesters/Stenciller-Plugin-ToMojoliciousTest/0.0102" alt="CPAN Testers result" /></a>
+    <a href="http://cpants.cpanauthors.org/dist/Stenciller-Plugin-ToMojoliciousTest-0.0103"><img src="https://badgedepot.code301.com/badge/kwalitee/Stenciller-Plugin-ToMojoliciousTest/0.0103" alt="Distribution kwalitee" /></a>
+    <a href="http://matrix.cpantesters.org/?dist=Stenciller-Plugin-ToMojoliciousTest%200.0103"><img src="https://badgedepot.code301.com/badge/cpantesters/Stenciller-Plugin-ToMojoliciousTest/0.0103" alt="CPAN Testers result" /></a>
     <img src="https://img.shields.io/badge/coverage-94.0%-yellow.svg" alt="coverage 94.0%" />
     </p>
 </div>
 
 # VERSION
 
-Version 0.0102, released 2016-03-23.
+Version 0.0103, released 2016-03-24.
 
 # SYNOPSIS
 

@@ -1,4 +1,4 @@
-# This file was auto-generated from iller.yaml by Dist::Iller on 2016-03-23 20:36:35 UTC.
+# This file was auto-generated from iller.yaml by Dist::Iller on 2016-03-24 08:23:56 UTC.
 
 on runtime => sub {
     requires 'Moose' => '2.1405';
@@ -14,7 +14,7 @@ on test => sub {
     requires 'IO::Handle' => '0';
     requires 'IPC::Open3' => '0';
     requires 'IPC::System::Simple' => '0';
-    requires 'Mojolicious::Lite' => '0';
+    requires 'Mojolicious' => '6.00';
     requires 'String::Cushion' => '0';
     requires 'Syntax::Feature::Qi' => '0';
     requires 'Test::Differences' => '0';

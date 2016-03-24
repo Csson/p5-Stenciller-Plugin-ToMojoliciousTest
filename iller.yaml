@@ -18,7 +18,7 @@ prereqs:
       - Test::More
       - Test::Differences
       - Test::Mojo::Trim
-      - Mojolicious::Lite
+      - Mojolicious: 6.00
       - IPC::System::Simple
       - String::Cushion
       - syntax
